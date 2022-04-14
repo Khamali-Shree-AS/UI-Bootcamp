@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      section {
+        background-color: gray;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 310px;
+        height: 106px;
+      }
+      .one {
+        background-color: tomato;
+        color: white;
+        width: 100px;
+        height: 100px;
+        margin: 2px;
+      }
+      .two {
+        background-color: lightgreen;
+        color: white;
+        width: 200px;
+        height: 50px;
+        margin: 2px;
+      }
+      .three {
+        background-color: pink;
+        color: white;
+        width: 95px;
+        height: 40px;
+        margin: 2px;
+      }
+
+      .four {
+        background-color: royalblue;
+        color: white;
+
+        width: 95px;
+        height: 20px;
+        margin: 2px;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+      .flexrow {
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="one">1</div>
+      <div>
+        <div class="two">2</div>
+        <div class="flexrow">
+          <div class="three">3</div>
+          <div>
+            <div class="four">4a</div>
+            <div class="four">4b</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

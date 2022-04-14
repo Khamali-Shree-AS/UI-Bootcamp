@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      header {
+        display: flex;
+        background-color: rgb(49, 49, 51);
+        border: 1px solid black;
+        color: white;
+        padding: 10px;
+      }
+      #maindiv {
+        display: flex;
+        padding: 5px;
+        flex-direction: column;
+      }
+      aside {
+        float: right;
+        background-color: black;
+        color: white;
+        height: 800px;
+        width: 20%;
+        margin: 2px;
+        padding: 10px;
+      }
+      #card-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .card {
+        height: 200px;
+        width: 250px;
+        border: 2px solid black;
+        margin: 50px;
+      }
+      .cardtitle {
+        color: white;
+        background-color: rgb(49, 49, 51);
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span style="flex: 1;">
+        <h1>My Website</h1>
+      </span>
+      <span>
+        <a href="">Link1</a>
+        <a href="">Link2</a>
+        <a href="">Link3</a>
+      </span>
+    </header>
+    <aside>aside</aside>
+    <div id="maindiv">
+      <h2>This is the main heading</h2>
+      <p>
+        paragragh 1 -paragragh 1-paragragh 1-paragragh 1-paragragh 1-paragragh
+        1-paragragh 1 -paragragh 1-paragragh 1-paragragh 1-paragragh 1-paragragh
+        1-paragragh 1 -paragragh 1-paragragh 1-paragragh 1-paragragh 1-paragragh
+        1-paragragh 1 -paragragh 1-paragragh 1-paragragh 1-paragragh 1-paragragh
+        1-paragragh 1 -paragragh 1-paragragh 1-paragragh 1-paragragh 1-paragragh
+        1-paragragh 1 -paragragh 1-paragragh 1-paragragh 1-paragragh 1-paragragh
+        1
+      </p>
+      <p>
+        paragragh 2-paragragh 2-paragragh 2-paragragh 2-paragragh 2-paragragh
+        2-paragragh 2-paragragh 2-paragragh 2-paragragh 2-paragragh 2-paragragh
+        2-paragragh 2-paragragh 2-paragragh 2-paragragh 2-paragragh 2-paragragh
+        2-paragragh 2-paragragh 2-paragragh 2-paragragh 2-paragragh 2-paragragh
+        2-paragragh 2-paragragh 2-paragragh 2-paragragh 2-paragragh 2-paragragh
+        2-paragragh 2-paragragh 2-paragragh 2-paragragh 2-paragragh 2-paragragh
+        2
+      </p>
+    </div>
+    <div id="card-container">
+      <div class="card">
+        <div class="cardtitle"><b>Card One</b></div>
+        <div>
+          card content card content card content card content card content
+        </div>
+      </div>
+      <div class="card">
+        <div class="cardtitle"><b>Card Two</b></div>
+        <div>
+          card content card content card content card content card content
+        </div>
+      </div>
+      <div class="card">
+        <div class="cardtitle"><b>Card Three</b></div>
+        <div>
+          card content card content card content card content card content
+        </div>
+      </div>
+      <div class="card">
+        <div class="cardtitle"><b>Card Four</b></div>
+        <div>
+          card content card content card content card content card content
+        </div>
+      </div>
+      <div class="card">
+        <div class="cardtitle"><b>Card Five</b></div>
+        <div>
+          card content card content card content card content card content
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
